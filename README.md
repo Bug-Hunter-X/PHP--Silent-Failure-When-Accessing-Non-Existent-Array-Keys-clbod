@@ -1,0 +1,3 @@
+# PHP: Silent Failure When Accessing Non-Existent Array Keys
+
+This repository demonstrates a subtle but common error in PHP: the silent failure when attempting to access a non-existent array key.  PHP's dynamic typing allows for flexible array handling, but this flexibility can mask issues.  Accessing an array index or key that doesn't exist results in NULL being returned rather than an exception, potentially leading to unexpected behavior and difficult-to-debug issues.
